@@ -7,81 +7,189 @@ White: #FFF
 
 */
 
-div img{
-    width: 150px;
+body{
+    /* padding-top: 20px; */
+    width: 70%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+    /* align-content: center;
+    align-items: center;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif; */
+}
+
+.menu{
+    justify-items: right;
+    float: right;
+    padding: 10px;
+    padding-bottom: 0px;
+    align-items: center;
+    box-sizing: border-box;
     display: flex;
-    
+    margin: 0 auto;
+}
+.menu li{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    float: right;
+    padding-left: 20px;
+}
+
+.headimg{
+    height: 50px;
+    padding: 10px;
 }
 
 .head{
-    
-    justify-content: center;
-    display: inline;
-}
-
-#menu {
-    padding: 0;
-    }
-
-#menu li{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: right;
-    display: inline;
-}
-
-.stmenu{
-    font-style: normal;
-}
-
-body{
-    padding-top: 20px;
-    width: 70%;
-    align-content: center;
     align-items: center;
-    align-self: center;
-    margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    height: 100px;
+    padding-top: 10px;
+    margin: 0 auto;
 }
-header{
-    height: 50vh;
-    background-image: url("../images/apple-pie.jpg");
+
+.splash{
+    width: 80%;
+    height: 70vh;
+    color: white;
+    font-size: 10vh;
+    background-image: url("../images/landing.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center fixed;
+    /* display: fixed; */
     text-align: center;
-    align-items: center;
-    justify-content: center;
-    /* justify-items: center; */
-    display: flex; 
+    
+    margin: 0 auto;
 }
 h1{
-    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    padding-top: 25%;
+    padding-bottom: 2%;
+    font-size: 7vh;
+}
+h2{
+    font-weight: 50;
+    align-items: center;
+    font-size: 2.5vh;
+}
+
+.midbar{
+    width: 30%;
+    padding: 20px;
+    align-items: center;
     text-align: center;
-    font-size: 10vh;
-    font-weight: 100;
-    color: white;
+    margin: 0 auto;
+}
+
+h3{
+    font-size: 2.5vh;
+    margin: auto;
+}
+
+.b30{
+    width: 60%;
+    color: #00B172;
+}
+
+.div3{
+    width: 30%;
+    height: 30vh;
+    float: left;
+    /* border: 1px solid; */
+}
+
+.div3mid{
+    width: 30%;
+    height: 30vh;
+    float: left;
+    /* border: 1px solid; */
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+}
+
+.bloqueicons{
+    text-align: center;
+    color: #00B172;
+    width: 80%;
+    margin: 0 auto;
+    align-content: center;
+    /* float: left; */
+}
+
+.bloque{
+    width: 80%;
+    margin: 0 auto;
+
+    /* float: none; */
+}
+
+.icons{
+    margin: auto;
+    /* border: 1px solid; */
+    display: flex;
+    height: 100px;
+    padding: 10px;
 }
 
 h4{
-    font-size: large;
-    font-family:'Arial Narrow Bold', sans-serif;
-}
-
-.ochentero{
-    padding: 10px;
-    align-self: center;
-    align-content: center;
-    width: 80%;
-    align-items: center;
-    justify-self: center;
-    margin: auto;
-}
-.instruc{
-    text-align: center;
-    align-self: center;
-    align-content: center;
-    width: 30%;
-    align-items: center;
-    justify-self: center;
     margin: auto;
     display: flex;
+    padding: 20px;
+    width: 50%;
+    color: rgb(100, 100, 100);
+}
+
+.div50
+{
+    color: white;
+    width: 50%;
+    height: 60vh;
+    float: left;
+    margin: auto;
+    margin-bottom: 5%;
+    background-color: #00B172;
+}
+
+.appimg{
+    margin: auto;
+    /* border: 1px solid; */
+    display: flex;
+    width: 50%;
+    padding: 10%;
+}
+
+.appsep{
+    width: 60%;
+    border: 3px solid white;
+    border-radius: 3px;
+}
+
+.auto60{
+    padding-top: 6%;
+    width: 60%;
+    margin: auto;
+}
+
+h5{
+    font-size: 16px;
+}
+
+.logobox{
+    align-self: center;
+    width: 6%;
+    overflow: visible;
+    float: center;
+    position: absolute;
+    z-index: 1000;
+    display: flex;
+    left: 47%;
+    top: 140%;
+}
+
+.logo{
+    margin: 0 auto;
+    width: 100%;
+    background-color: transparent;
 }
