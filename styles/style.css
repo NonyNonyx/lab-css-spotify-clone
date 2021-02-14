@@ -1,0 +1,87 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+
+div img{
+    width: 150px;
+    display: flex;
+    
+}
+
+.head{
+    
+    justify-content: center;
+    display: inline;
+}
+
+#menu {
+    padding: 0;
+    }
+
+#menu li{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    display: inline;
+}
+
+.stmenu{
+    font-style: normal;
+}
+
+body{
+    padding-top: 20px;
+    width: 70%;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    height: 50vh;
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* justify-items: center; */
+    display: flex; 
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 10vh;
+    font-weight: 100;
+    color: white;
+}
+
+h4{
+    font-size: large;
+    font-family:'Arial Narrow Bold', sans-serif;
+}
+
+.ochentero{
+    padding: 10px;
+    align-self: center;
+    align-content: center;
+    width: 80%;
+    align-items: center;
+    justify-self: center;
+    margin: auto;
+}
+.instruc{
+    text-align: center;
+    align-self: center;
+    align-content: center;
+    width: 30%;
+    align-items: center;
+    justify-self: center;
+    margin: auto;
+    display: flex;
+}
